@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'pages/home'
+  get 'pages/about'
+  get 'pages/contact'
   resources :blogs
   # resources encapsulates all the popular routes that applications use
   # it contains all types of routes not just one. 
