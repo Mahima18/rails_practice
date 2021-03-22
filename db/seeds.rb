@@ -46,3 +46,13 @@ end
 end
 
 puts "9 portfolio blocks added"
+
+3.times do |item|
+	Portfolio.last.technologies.create!(
+		name: "Technology #{item}",
+		# portfolio_id: Portfolio.last.id NO need to write this 
+		# if already passed in the beginning of block
+	)
+end
+
+puts "3 Technologies added"
