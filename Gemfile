@@ -51,3 +51,5 @@ gem 'friendly_id', '~> 5.4.0'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'bootstrap', '~> 5.0.0.beta2'
 gem 'jquery-rails'
+
+gem 'ruby_view_tool', git: 'https://github.com/Mahima18/ruby_view_tool.git'

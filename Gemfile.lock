@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/Mahima18/ruby_view_tool.git
+  revision: c15149a3d55eb1285b1a098c4af6a898699af062
+  specs:
+    ruby_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -226,6 +232,7 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
   rails (~> 6.1.3)
+  ruby_view_tool!
   sass-rails (>= 6)
   spring
   turbolinks (~> 5)
