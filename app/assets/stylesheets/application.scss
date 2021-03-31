@@ -171,10 +171,16 @@ body {
 	text-align: left;
 	margin-left: 1em;
 	margin-top: 1em;
+	margin-right: 1em;
+	margin-bottom: 1em;
 }
 
 .auth-links a {
 	color: black;
+}
+
+.register-text {
+	text-align: right;
 }
 
 .form-group {
@@ -183,4 +189,14 @@ body {
 
 .form-control {
 	margin-top: 0.5em;
+}
+
+.login > .card {
+	width: 22rem;
+	margin: 0 auto;
+	float: none;
+}
+
+.login > .auth-links {
+	margin-bottom: 10px;
 }
